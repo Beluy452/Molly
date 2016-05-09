@@ -1,0 +1,92 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+	.logo {
+		display: block;
+	}
+	.our-services span {
+		margin-bottom: 30px;
+		max-width: 345px;
+		margin: 0px auto 30px;
+		display: block;
+	}
+	.our-services h3 {
+		padding-bottom: 5px;
+	}
+	.video-right-block {
+		margin-top: 30px;
+	}
+	.video-block h2 {
+		padding-left: 0px; 
+		text-align: center;
+	}
+	.portfolio .portf-img img {
+		margin-bottom: 40px;
+	}
+	.portf-img {
+		padding-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 675px) {
+	.webDesign h2 {
+		padding-top: 30px;
+	}
+
+
+}
+
+@media only screen and (max-width: 480px) {
+	.blog-bottom .col-xs-6{
+		width: 100%
+	}
+	.blog-bottom button {
+		margin-top: 30px;
+	}
+	header li {
+		padding: 40px 10px;
+	}
+	footer .social-block .facebook {
+		padding: 7px 13px;
+	}
+	footer .social-block a {
+		padding: 7px 11px;
+	}
+	footer .social-block .google {
+		padding: 7px 8px;
+	}
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1368px) {
+	
+}
