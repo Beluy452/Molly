@@ -36,19 +36,35 @@
 	.portf-img {
 		padding-bottom: 0px;
 	}
+	header li {
+		padding: 10px 20px;
+	}
 }
-
+@media only screen and (max-width: 768px) {
+	header menu {
+		display: block;
+	}
+}
 @media only screen and (max-width: 675px) {
 	.webDesign h2 {
 		padding-top: 30px;
 	}
-
-
+	.nav-bar {
+		display: block;
+		position: absolute;
+    z-index: 9;
+	}
+	header menu {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 480px) {
 	.logo img{
 		width: 60%;
+	}
+	.slider-block h2 {
+		font-size: 100px;
 	}
 	.blog-bottom .col-xs-6{
 		width: 100%
@@ -79,10 +95,16 @@
 @media only screen and (min-width: 480px) {
 
 }
-
+@media only screen and (min-width: 675px) {
+	.nav-bar {
+		display: none;
+	}
+}
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-
+	 menu {
+		display: block;
+	}
 }
 
 /* Medium Devices, Desktops */

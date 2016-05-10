@@ -15,13 +15,13 @@ $(document).ready(function () {
         var anchor = this.hash;
         $('html, body').stop().animate({
             scrollTop: $(anchor).offset().top - 110
-        }, 1500);
+        }, 2500);
         console.log('ok');
         
     });//scroll якорів
 
     // Header Scroll
-   $(window).on('scroll', function() {
+    $(window).on('scroll', function() {
         var scroll = $(window).scrollTop();
 
         if (scroll >= 50) {
@@ -31,6 +31,15 @@ $(document).ready(function () {
         }
     });
 
+   // Mobile Navigation
+    $('.nav-bar').click(function () {
+        $('menu').slideToggle('Open');
+    })
+    $('a').click(function () {
+        if($(document).width() <676){
+            $('menu').slideToggle('Open');
+        }
+    })
 
 
 });
