@@ -26,6 +26,12 @@ img {
 .wrapper{
 	text-align: center;
 }
+.fixed {
+	position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 9099999;
+}
 header li {
 	display: inline-block;
 	padding: 40px 25px;
@@ -190,6 +196,55 @@ header .left-menu,.logo,.right-menu{
 .portf-img {
 	padding-bottom: 30px;
 }
+.portf-img a{
+	position: relative;
+	transition: 0.7s;
+}
+.portf-img a:hover .hover-block{
+	background-color: rgba(255, 229, 0, 0.8);
+	opacity: 1;
+	transition: 0.7s;
+}
+.portf-img a:hover .text-show{
+	opacity: 1;
+}
+.text-show .text-bot{
+	transform: translateY(-135px);
+}
+.text-show .text-top{
+	transform: translateY(95px);
+}
+.portf-img a:hover .text-bot{
+	transform: translateY(-50px);
+	opacity:1;
+	transition: 0.7s;
+}
+.portf-img a:hover .text-top{
+	opacity: 1;
+	transform: translateY(15px);
+	transition: 0.7s;
+}
+.text-show {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 50%;
+	color: #40525C;
+}
+.text-bot {
+	transform: translateY(-20px);
+}
+.hover-block {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
 .show-more {
 	padding-top: 52px;
 	text-align: center;
@@ -256,6 +311,7 @@ header .left-menu,.logo,.right-menu{
 .about-contant{
 	padding-top: 57px;
 	text-align: left;
+	padding-bottom: 30px;
 }
 .about-contant h3 {
 	font-size: 25px;
@@ -316,9 +372,6 @@ header .left-menu,.logo,.right-menu{
 /*blog*/
 .blog {
 	background-color: #fafafa;
-}
-.blog img {
-	/*max-width: 555px;*/
 }
 .blog-blocks {
 	background-color: #fff;
