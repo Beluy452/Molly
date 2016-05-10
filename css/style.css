@@ -79,11 +79,6 @@ header .left-menu,.logo,.right-menu{
 	background-color: #ffeb33;
 	transition: 0.7s;
 }
-.services-top h2 {
-	padding-top: 90px;
-	padding-bottom: 35px;
-	font-size: 70px;
-}
 .services-top img {
 	display: block;
 	margin: 0 auto;
@@ -166,11 +161,6 @@ header .left-menu,.logo,.right-menu{
 .portfolio {
 	color: #637988;
 }
-.portf-top h2 {
-	font-size: 70px;
-	padding: 91px 0px 34px 0;
-	color: #2c4755;
-}
 .portf-top img {
 	padding-bottom: 32px;
 	max-width: 86px;
@@ -185,8 +175,6 @@ header .left-menu,.logo,.right-menu{
 .links a {
 	padding: 6px 26px;
 	border: 1px solid transparent;
-	/*margin: 0 15px;*/
-
 	font-size: 15px;
 }
 .links a:hover{
@@ -198,9 +186,6 @@ header .left-menu,.logo,.right-menu{
 	background-color:  #FFE500;
 	color: #fff;
 	border: 1px solid #FFE500;
-}
-.portfolio .portf-img img {
-	/*max-width: 100%;*/
 }
 .portf-img {
 	padding-bottom: 30px;
@@ -259,11 +244,6 @@ header .left-menu,.logo,.right-menu{
 .about-us {
 
 }
-.about-top h2 {
-	padding: 90px 0 46px 0;
-	font-size: 70px;
-	text-transform: uppercase;
-}
 .about-top span {
 	display: block;
 	max-width: 770px;
@@ -277,9 +257,6 @@ header .left-menu,.logo,.right-menu{
 	padding-top: 57px;
 	text-align: left;
 }
-.about-contant img {
-	/*max-width: 455px;*/
-}
 .about-contant h3 {
 	font-size: 25px;
 	color: #ffe500;
@@ -289,9 +266,6 @@ header .left-menu,.logo,.right-menu{
 	color: #324651;
 	font-size: 15px;
 	padding-bottom: 38px;
-}
-.about-contant p {
-	/*margin-bottom: 15px;*/
 }
 .social-block {
 	padding-top: 32px;
@@ -368,6 +342,13 @@ header .left-menu,.logo,.right-menu{
 	font-size: 70px;
 	padding-top: 94px;
 	padding-bottom: 34px;
+	color: #2c4755;
+}
+#contact {
+	font-size: 70px;
+	padding-top: 94px;
+	padding-bottom: 34px;
+	color: #fff;
 }
 .blog-text {
 	padding: 20px 27px 15px 20px;
