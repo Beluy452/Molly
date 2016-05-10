@@ -52,10 +52,21 @@
 	.nav-bar {
 		display: block;
 		position: absolute;
-    z-index: 9;
+		z-index: 9;
+		top: 10px;
 	}
 	header menu {
 		display: none;
+	}
+	.slider-block {
+		padding: 120px 0px 0px 0px;
+	}
+	.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+		position: absolute;
+		bottom: 110px !important; 
+	}
+	.bx-wrapper {
+		min-height: 600px !important;
 	}
 }
 
@@ -102,7 +113,7 @@
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-	 menu {
+	menu {
 		display: block;
 	}
 }

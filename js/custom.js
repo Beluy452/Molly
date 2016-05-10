@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('.nav-bar').click(function () {
         $('menu').slideToggle('Open');
     })
-    $('a').click(function () {
+    $('menu a').click(function () {
         if($(document).width() <676){
             $('menu').slideToggle('Open');
         }
