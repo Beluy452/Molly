@@ -28,9 +28,9 @@ img {
 }
 .fixed {
 	position: fixed;
-    background-color: #fff;
-    width: 100%;
-    z-index: 9099999;
+	background-color: #fff;
+	width: 100%;
+	z-index: 9099999;
 }
 header li {
 	display: inline-block;
@@ -48,6 +48,13 @@ header .logo a {
 }
 header .left-menu,.logo,.right-menu{
 	display: inline-block;
+}
+.nav-bar {
+	cursor: pointer;
+	text-align: right;
+}
+.fa-2x {
+    color: #000;
 }
 .slider-block {
 	padding: 350px 0px;
