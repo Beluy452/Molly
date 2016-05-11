@@ -110,6 +110,14 @@ header .left-menu,.logo,.right-menu{
 .our-services img {
 	padding-bottom: 53px;
 	max-width: 127px;
+	transition: 0.7s;
+}
+.our-services .description-skills {
+	transition: 0.7s;
+}
+.our-services .description-skills:hover {
+	transform: rotate(30deg);
+	transition: 0.7s;
 }
 .our-services h3 {
 	font-size: 20px;

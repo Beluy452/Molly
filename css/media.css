@@ -68,6 +68,15 @@
 	.bx-wrapper {
 		min-height: 600px !important;
 	}
+	#contact {
+		font-size: 50px;
+	}
+	.title-blocks {
+		font-size: 60px;
+	}
+	.contact-contant input {
+		margin-bottom: 30px;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -95,6 +104,9 @@
 	}
 	footer .social-block .google {
 		padding: 7px 8px;
+	}
+	.contact-top p {
+		padding-bottom: 80px;
 	}
 }
 
