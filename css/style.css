@@ -25,12 +25,14 @@ img {
 }
 .wrapper{
 	text-align: center;
+	overflow: hidden;
 }
 .fixed {
 	position: fixed;
 	background-color: #fff;
 	width: 100%;
 	z-index: 9099999;
+	transition: 0.9s;
 }
 header li {
 	display: inline-block;
@@ -54,10 +56,10 @@ header .left-menu,.logo,.right-menu{
 	text-align: right;
 }
 .fa-2x {
-    color: #000;
+	color: #000;
 }
 .slider-block {
-	padding: 350px 0px;
+	padding: 150px 0px;
 }
 .slider-block h4 {
 	font-size: 20px;
@@ -116,7 +118,7 @@ header .left-menu,.logo,.right-menu{
 	transition: 0.7s;
 }
 .our-services .description-skills:hover {
-	transform: rotate(30deg);
+	transform: rotate(15deg);
 	transition: 0.7s;
 }
 .our-services h3 {
@@ -180,6 +182,10 @@ header .left-menu,.logo,.right-menu{
 }
 /*portfolio*/
 .portfolio {
+	color: #637988;
+}
+.hidden-block,.hidden-block-blog {
+	display: none;
 	color: #637988;
 }
 .portf-top img {
@@ -307,6 +313,16 @@ header .left-menu,.logo,.right-menu{
 	background-color: #fff;
 	margin-top: 32px;
 	color: #40525C;
+}
+#video {
+	max-width: 700px;
+}
+#progress {
+	height: 13px;
+	position: relative;
+}
+svg {
+	border-radius: 10px;
 }
 /*portfolio*/
 
