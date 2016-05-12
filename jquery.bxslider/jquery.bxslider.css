@@ -16,12 +16,13 @@
 
 .bx-wrapper {
 	position: relative;
-	min-height: 950px;
-	/*max-height: 950px;*/
-	padding: 0;
-	*zoom: 1;
-	background-color: #324651;
-	color: #fff;
+  min-height: 600px;
+  /*min-height: 950px;*/
+  /*max-height: 950px;*/
+  padding: 0;
+  *zoom: 1;
+  background-color: #324651;
+  color: #fff;
 
 }
 
@@ -39,7 +40,8 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
    position: absolute;
-   bottom: 270px;
+   /*bottom: 270px;*/
+   bottom: 120px;
    width: 100%;
 }
 
@@ -88,9 +90,9 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-    color: #ffe600;
-    background-color: #ffe600;
-    
+  color: #ffe600;
+  background-color: #ffe600;
+  
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
