@@ -117,7 +117,7 @@ header .left-menu,.logo,.right-menu{
 .our-services .description-skills {
 	transition: 0.7s;
 }
-.our-services .description-skills:hover {
+.our-services .description-skills img:hover {
 	transform: rotate(15deg);
 	transition: 0.7s;
 }

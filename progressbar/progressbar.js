@@ -88,7 +88,7 @@
 				$( this ).find( '.bar' ).animate({
 					width : progress,
 					opacity : 1
-				}, 3000 );
+				}, 5000 );
 			}
 
 		});
