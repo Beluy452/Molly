@@ -5,20 +5,49 @@
 ul li {
 	list-style: none;
 }
-p {
-	margin-bottom: 18px !important;
-	font-size: 15px !important;
+.wrapper p {
+	margin-bottom: 18px;
+	font-size: 15px;
 }
 a {
 	display: inline-block;
 	text-transform: uppercase;
 	border-radius: 20px;
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 a:hover{
-	text-decoration: none !important;
+	/*text-decoration: none !important;*/
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 a:focus{
-	text-decoration: none !important;
+	/*text-decoration: none !important;*/
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
+}
+.fa {
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
+}
+.fa:hover {
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 img {
 	width: 100%;
@@ -33,6 +62,7 @@ img {
 	width: 100%;
 	z-index: 9099999;
 	transition: 0.9s;
+	box-shadow: 0px 0px 10px;
 }
 header li {
 	display: inline-block;
@@ -43,10 +73,11 @@ header li a {
 }
 header .logo a:hover {
 	transform: rotate(360deg);
-	transition: 0.7s;
-}
-header .logo a {
-	transition: 0.7s;
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 header .left-menu,.logo,.right-menu{
 	display: inline-block;
@@ -87,12 +118,10 @@ header .left-menu,.logo,.right-menu{
 	display: inline-block;
 	line-height: 2;
 	font-size: 15px;
-	transition: 0.7s;
 }
 .slider-block a:hover{
 	color: #fff;
 	background-color: #ffeb33;
-	transition: 0.7s;
 }
 .services-top img {
 	display: block;
@@ -112,7 +141,6 @@ header .left-menu,.logo,.right-menu{
 .our-services img {
 	padding-bottom: 53px;
 	max-width: 127px;
-	transition: 0.7s;
 }
 .our-services .description-skills {
 	transition: 0.7s;
@@ -173,12 +201,10 @@ header .left-menu,.logo,.right-menu{
 	padding: 11px 42px;
 	background-color: #fff;
 	color: #FFE500;
-	transition: 0.7s;
 }
 .get-started a:hover {
 	color: #fff;
 	background-color: #40525C;
-	transition: 0.7s;
 }
 /*portfolio*/
 .portfolio {
@@ -219,12 +245,10 @@ header .left-menu,.logo,.right-menu{
 }
 .portf-img a{
 	position: relative;
-	transition: 0.7s;
 }
 .portf-img a:hover .hover-block{
 	background-color: rgba(255, 229, 0, 0.8);
 	opacity: 1;
-	transition: 0.7s;
 }
 .portf-img a:hover .text-show{
 	opacity: 1;
@@ -238,12 +262,10 @@ header .left-menu,.logo,.right-menu{
 .portf-img a:hover .text-bot{
 	transform: translateY(-50px);
 	opacity:1;
-	transition: 0.7s;
 }
 .portf-img a:hover .text-top{
 	opacity: 1;
 	transform: translateY(15px);
-	transition: 0.7s;
 }
 .text-show {
 	opacity: 0;
@@ -278,7 +300,6 @@ header .left-menu,.logo,.right-menu{
 .show-more a:hover {
 	background-color: #40525C;
 	color: #ffe500;
-
 }
 .video-block {
 	margin-top: 93px;
@@ -371,6 +392,7 @@ svg {
 }
 .social-block .fa {
 	color: #324651;
+
 }
 .social-block a:nth-child(n+2){
 	padding: 8px 12px;
@@ -397,7 +419,6 @@ svg {
 	text-transform: uppercase;
 	padding-top: 95px;
 }
-
 /*about-us*/
 
 /*blog*/
@@ -519,12 +540,17 @@ svg {
 	margin-top: 30px;
 	margin-bottom: 55px;
 }
-.contact-contant button {
+.contact-contant a {
 	width: 171px;
 	height: 44px;
 	background-color: #fff;
 	border-radius:20px;
 	color: #324651;
+	line-height: 2;
+}
+.contact-contant a:hover {
+	background-color: #FFE500;
+	color: #fff;
 }
 /*contact*/
 
