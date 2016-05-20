@@ -249,6 +249,18 @@ header .left-menu,.logo,.right-menu{
 .portf-img a:hover .hover-block{
 	background-color: rgba(255, 229, 0, 0.8);
 	opacity: 1;
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
+}
+.portf-img .hover-block{
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 .portf-img a:hover .text-show{
 	opacity: 1;
@@ -258,14 +270,29 @@ header .left-menu,.logo,.right-menu{
 }
 .text-show .text-top{
 	transform: translateY(95px);
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 .portf-img a:hover .text-bot{
 	transform: translateY(-50px);
 	opacity:1;
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 .portf-img a:hover .text-top{
 	opacity: 1;
 	transform: translateY(15px);
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 .text-show {
 	opacity: 0;
@@ -275,9 +302,19 @@ header .left-menu,.logo,.right-menu{
 	text-align: center;
 	top: 50%;
 	color: #40525C;
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 .text-bot {
 	transform: translateY(-20px);
+	-webkit-transition: .7s;
+	-moz-transition: .7s ;
+	-ms-transition: .7s ;
+	-o-transition: .7s ;
+	transition: .7s ;
 }
 .hover-block {
 	opacity: 0;
