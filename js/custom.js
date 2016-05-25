@@ -49,6 +49,16 @@ $(document).ready(function () {
     }
     })
 
+    // Desktop navigation
+    $(window).resize(function(){
+        var windowWidth = $(window).width();
+        if(windowWidth > 676) {
+            $("menu").css({"display": "block"});
+        }
+        else {
+            $("menu").css({"display": "none"});
+        }
+    });
 
 
 });
