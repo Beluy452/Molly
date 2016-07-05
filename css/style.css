@@ -374,6 +374,7 @@ header .left-menu,.logo,.right-menu{
 }
 #video {
 	max-width: 700px;
+	width:100%;
 }
 #progress {
 	height: 13px;
